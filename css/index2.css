@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+header {
+    border: 1px solid rgb(235, 232, 232);
+    height: 100px;
+}
+
+
+
+main {
+    height: calc(100% - 168px);
+    /* background-color: aqua */
+    display: flex;
+}
+
+/* 侧边栏 */
+aside {
+    width: 200px;
+    height: calc(100% - 20px);
+    border: 10px solid rgb(235, 235, 238);
+    border-radius: 15px;
+    /* margin: 0px 20px; */
+}
+
+/* aside>ul {
+    height: 30px;
+
+} */
+
+.leimu {
+
+    /* border: 1px solid blue; */
+    line-height: 30px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(122, 121, 121);
+}
+
+a:hover {
+    color: orange;
+}
+
+.caidan {
+    display: none;
+}
+
+ul:hover>li {
+    display: list-item;
+    border-top: 1px solid rgb(231, 228, 228);
+}
+
+.card {
+    width: 300px;
+    border: 10px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.right span {
+    color: orange;
+}
+
+#ys {
+    font-weight: bold;
+}
+
+.tishi {
+    font-size: 12px;
+    color: rgb(255, 115, 0);
+}
+
+hr {
+    border: 1px solid rgb(113, 113, 156);
+}
+
+.h1 {
+    border: 1px solid rgb(236, 233, 233);
+    border-radius: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    height: calc(100%-168px);
+    width: 100%;
+    border: 20px solid rgb(197, 197, 201);
+    border-radius: 15px;
+    background-color: rgb(80, 79, 79);
+}
+
+footer {
+    border: 1px solid rgb(235, 232, 232);
+    height: 64px;
+}

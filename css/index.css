@@ -1,0 +1,101 @@
+ * {
+     margin: 0rem;
+     padding: 0rem;
+ }
+
+ html {
+     font-size: 2vh;
+ }
+
+ a {
+     text-decoration: none;
+     color: rgb(155, 155, 161);
+ }
+
+ html,
+ body {
+     height: 100%;
+     background-image: url(../imge/beijing.jpg);
+ }
+
+ body {
+     display: flex;
+     flex-direction: column;
+ }
+
+ header {
+     display: flex;
+     flex-direction: column;
+     height: 6.875rem;
+     /* border: .0625rem solid blue; */
+     box-sizing: border-box;
+
+ }
+
+ footer {
+     text-align: center;
+ }
+
+ footer a {
+     color: blue;
+ }
+
+ .logo {
+
+     flex: 1;
+     /* background-color: blueviolet; */
+ }
+
+ .nav {
+     display: flex;
+     width: 100%;
+     height: 2.4375rem;
+     text-shadow: .3125rem .3125rem .25rem rgb(213, 242, 253);
+     justify-content: space-around;
+     line-height: 2.4375rem;
+     text-align: center;
+     background-image: linear-gradient(white 10%, rgb(218, 207, 207) 90%);
+     /* background-image: linear-gradient(#00ffd5 10%, #008cff 90%); */
+     box-shadow: .0625rem .3125rem .3125rem rgb(167, 165, 165);
+     color: rgb(155, 155, 161);
+     font-weight: bold;
+ }
+
+ a:hover {
+     border: .125rem solid #00ffd5;
+     border-radius: .9375rem;
+     padding: 0rem .625rem;
+     /* border-image: linear-gradient(blue 10%, red 20%, orange 30%); */
+
+ }
+
+ /* .nav-column {
+            display: flex;
+            flex-direction: column;
+            border: .0625rem solid blue;
+        } */
+
+ .nav-font {
+     font-size: .875rem;
+ }
+
+ .iconfont {
+     font-size: 1.125rem;
+ }
+
+ main {
+     flex: 1;
+     /* border: .0625rem solid blue; */
+ }
+
+ main div {
+     border: .3125rem solid white;
+     background-color: azure;
+     padding: .625rem;
+     margin: .625rem;
+     border-radius: .9375rem;
+     color: rgb(32, 30, 30);
+     font-size: 1.125rem;
+     font-weight: bold;
+     text-align: center;
+ }

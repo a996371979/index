@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body {
+    position: relative;
+}
+
+html {
+    height: 26.6vh;
+}
+
+header {
+    height: 7.1875rem;
+    /* border: .0625rem solid green; */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgb(245, 241, 241);
+    text-shadow: -5px 5px 5px rgb(48, 47, 47);
+}
+
+.logo {
+    margin: 24px 10px;
+    height: 40px;
+    font-size: 30px;
+    color: #181718;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+main {
+    padding: 10px 0px 0px 0px;
+    box-sizing: border-box;
+    height: calc(100vh - 11.0625rem);
+    /* border: 1px solid black; */
+}
+
+.left {
+    float: left;
+
+}
+
+.right {
+    float: right;
+}
+
+.fanhui .icon-back {
+    color: rgb(230, 220, 220);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.neirong {
+    /* display: flex;
+    flex-direction: column; */
+    border: 1px solid red;
+    font-size: .8125rem;
+    width: calc(100vw - 0.37vh);
+}
+
+main h1 {
+    text-align: center;
+}
+
+.duanluo {
+    float: left;
+}
+
+.wenben {
+    float: right;
+}
+
+main h1 span {
+    color: blue;
+
+}
+
+.fanhui {
+    height: 2.5rem;
+    line-height: 2.5rem;
+    border-top: 1px solid rgb(241, 241, 241);
+    border-bottom: 1px solid rgb(238, 237, 237);
+    margin: 10px 0px 0px 0px;
+    background-image: linear-gradient(white 5%, rgb(216, 215, 215) 50%, rgb(250, 248, 248));
+}
+
+.wen1 {
+    line-height: 1.25rem;
+}
+
+.fanhui span {
+    font-size: 20px;
+    color: rgb(108, 110, 108);
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    height: 38px;
+    background-color: #6fce72;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 38px;
+    color: white;
+}
+
+footer {
+    height: 3.75rem;
+    border: 1px solid orange;
+}
